@@ -28,8 +28,10 @@
     * 使用 MySQL 客戶端工具，登入您的 MySQL 伺服器。
     * 將 `shopping.sql` 檔案匯入到 MySQL
 4.  **下載 JAR 檔案：**
-    * 從 [Release 頁面](https://github.com/Wei0316/Shopping) 下載 `Shopping.jar` 檔案。
-5.  **執行 JAR 檔案：**
+    * 從 [專案儲存庫](https://github.com/Wei0316/Shopping) 下載 `Shopping.zip` 檔案。
+5.  **解壓縮 ZIP 檔案：**
+    * 右鍵解壓縮 `Shopping.zip` 檔案。
+6.  **執行 JAR 檔案：**
     * 雙擊 `Shopping.jar` 檔案即可執行。
 
 ## 資料庫設定
@@ -38,6 +40,6 @@
 2.  修改以下變數，設定您的 MySQL 資料庫連接資訊：
 
 ```java
-private static final String URL = "jdbc:mysql://localhost:3306/shopping_db";
-private static final String USER = "your_username";
-private static final String PASSWORD = "your_password";
+private static final String URL = "jdbc:mysql://localhost:3306/shopping";
+private static final String USER = "root";
+private static final String PASSWORD = "1234";
