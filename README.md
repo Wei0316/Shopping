@@ -27,9 +27,8 @@
     * 從 [專案儲存庫](https://github.com/Wei0316/Shopping) 下載 `shopping.sql` 檔案。
     * 使用 MySQL 客戶端工具，登入您的 MySQL 伺服器。
     * 將 `shopping.sql` 檔案匯入到 MySQL
-
 4.  **下載 JAR 檔案：**
-    * 從 [Release 頁面](https://github.com/Wei0316/Shopping/releases) 下載 `Shopping.jar` 檔案。
+    * 從 [Release 頁面](https://github.com/Wei0316/Shopping) 下載 `Shopping.jar` 檔案。
 5.  **執行 JAR 檔案：**
     * 雙擊 `Shopping.jar` 檔案即可執行。
 
