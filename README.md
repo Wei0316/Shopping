@@ -25,15 +25,9 @@
     * 啟動 MySQL 資料庫服務。
 3.  **匯入 SQL 檔案：**
     * 從 [專案儲存庫](https://github.com/Wei0316/Shopping) 下載 `shopping.sql` 檔案。
-    * 使用 MySQL 客戶端工具（例如 MySQL Workbench、phpMyAdmin 或命令列工具），登入您的 MySQL 伺服器。
-    * 創建資料庫，例如 `shopping_db`。
-    * 執行以下命令，將 `shopping.sql` 檔案匯入到 `shopping_db` 資料庫：
+    * 使用 MySQL 客戶端工具，登入您的 MySQL 伺服器。
+    * 將 `shopping.sql` 檔案匯入到 MySQL
 
-    ```bash
-    mysql -u <使用者名稱> -p <資料庫名稱> < shopping.sql
-    ```
-
-    * 請將 `<使用者名稱>` 和 `<資料庫名稱>` 替換為您的 MySQL 使用者名稱和資料庫名稱。
 4.  **下載 JAR 檔案：**
     * 從 [Release 頁面](https://github.com/Wei0316/Shopping/releases) 下載 `Shopping.jar` 檔案。
 5.  **執行 JAR 檔案：**
